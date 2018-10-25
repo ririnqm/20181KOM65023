@@ -1,0 +1,123 @@
+body{
+	font:15px/1.5 Georgia;
+	margin: 0;
+	padding: 0;
+}
+
+/*untuk kotak text-logo*/
+header{
+ background-color: #232390;
+ min-height:60px;
+ padding-top: 10px;
+ border-bottom:5px solid #b30047;
+ color: white;
+}
+
+/*untuk text-logonya*/
+header #text-logo{
+	float: left;
+}
+
+header #text-logo h1{
+	margin: 0;
+}
+header nav {
+	float:right;
+	padding-top: 10px;
+}
+
+header li {
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header a:hover{
+	font-weight: bold;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#banner{
+	min-height: 95vh;
+	background: url('paris.jpg') no-repeat 0;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	color: white;
+	margin: auto;
+}
+
+.container
+@keyframes example {
+    from {background: url('pantai.jpg') no-repeat 0;}
+    to {background: url('bali.jpg') no-repeat 0}
+}
+
+#banner h1{
+	font-size: 60px;
+	padding-top: 250px;
+}
+
+#banner p{
+	font-size: 20px;
+}
+
+.tombol{
+	color: white;
+	border: 3px solid white;
+	text-decoration: none;
+	padding: 30px 70px;
+	border-radius: 30px;
+	font-weight: bold;
+	background-color: #b30047;
+}
+
+.jarak-tombol{
+	padding: 50px;
+}
+
+#fitur h1{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+#fitur h1{
+	text-align: center;
+	color: #b30047;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+#fitur .kotak{
+	border: 2px solid #b30047;
+	border-radius: 30px;
+	width: 27%;
+	text-align: center;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+
+/*untuk foother*/
+footer{
+	text-align: center;
+	background-color: #232390;
+	padding: 20px;
+	color: white;
+}
